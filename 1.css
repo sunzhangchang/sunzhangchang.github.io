@@ -1,0 +1,32 @@
+a
+{
+	line-height: 30px;
+	text-decoration: none;
+}
+
+a:link /* 未访问的链接 */
+{
+	color: rgb(2, 150, 255);
+}
+
+a:visited /* 已访问的链接 */
+{
+	color: rgb(2, 150, 255);
+}
+
+a:hover /* 当有鼠标悬停在链接上 */
+{
+	color: blue;
+	transition: padding 0.5s;
+	padding: 0 1.5em;
+}
+
+a:active /* 被选择的链接 */
+{
+	color: blue;
+}
+
+li{margin-left: 80px;}
+
+.ttl{margin-left: 100px;}
+
